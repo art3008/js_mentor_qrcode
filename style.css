@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
 
 /* Weights: 400, 700 */
 
@@ -9,3 +9,61 @@ Colors
 - Grayish blue: hsl(220, 15%, 55%)
 - Dark blue: hsl(218, 44%, 22%) */
 
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+html {
+    background-color: hsl(212, 45%, 89%);
+}
+
+.parent {
+    height: 100%;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+.block {
+
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    flex-basis: 25px;
+}
+
+.block img {
+    margin: 10px;
+    border-radius: 10px;
+    
+}
+
+#title {
+    margin-top: 10px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 700;
+    padding: 0 20px 0 20px;
+    font-size: 20px;
+}
+
+#descrip {
+    font-family: 'Outfit', sans-serif;
+    opacity: 50%;
+    margin: 10px 0 15px 0;
+    padding: 0 5px 0 5px;
+
+    
+
+}
